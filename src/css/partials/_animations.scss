@@ -1,0 +1,9 @@
+@keyframes span-x-form-0-to-100-left {
+	from {
+		transform: scaleX(0);
+		transform-origin: left;
+	}
+	to {
+		transform: scaleX(1);
+	}
+}

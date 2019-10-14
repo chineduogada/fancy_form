@@ -1,0 +1,74 @@
+@mixin typo {
+	/**
+* TYPE-SCALE = MAJOR SCALE (1.125);
+* BASE-LINE-HEIGHT = (1.5)(24PX);
+* 
+* FONT-SIZE = PREVIOUS-FONT-SIZE * TYPE-SCALE;
+* LINE-HEIGHT = ceil(FONT-SIZE / BASE-LINE-HEIGHT) * (BASE-LINE-HEIGHT / FONT-SIZE);
+*/
+
+	html {
+		font: normal 100%/1.5 Arial, sans-serif;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		margin-bottom: $base;
+	}
+
+	.xxLarge {
+		font-size: 5rem;
+		line-height: 1;
+	}
+	.yotta {
+		font-size: 3.42rem;
+		line-height: 1.315;
+	}
+	.zetta {
+		font-size: 3.04rem;
+		line-height: 1.48;
+	}
+	h1,
+	.exa {
+		font-size: 2.703rem;
+		line-height: 1.109;
+	}
+	h2,
+	.peta {
+		font-size: 2.403rem;
+		line-height: 1.248;
+	}
+	h3,
+	.tera {
+		font-size: 2.136rem;
+		line-height: 1.404;
+	}
+	h4,
+	.giga {
+		font-size: 1.899rem;
+		line-height: 1.579;
+	}
+	h5,
+	.mega {
+		font-size: 1.687rem;
+		line-height: 1.778;
+	}
+	h6,
+	.kilo {
+		font-size: $base;
+		line-height: 1;
+	}
+	small,
+	.milli {
+		font-size: 0.8rem;
+		line-height: 1.875;
+	}
+	.micro {
+		font-size: 0.68rem;
+		line-height: 2.205;
+	}
+}

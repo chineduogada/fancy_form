@@ -1,0 +1,21 @@
+@mixin container($w: 100%, $h: 100vh, $overflow-y: auto) {
+	width: $w;
+	height: $h;
+	overflow-y: $overflow-y;
+}
+@mixin container-round($w-h) {
+	border-radius: 50%;
+	width: $w-h;
+	height: $w-h;
+}
+@mixin w-h($w-h: 100%) {
+	width: $w-h;
+	height: $w-h;
+}
+
+@mixin b-a-span-full($w-h: 100%) {
+	content: "";
+	position: absolute;
+	width: $w-h;
+	height: $w-h;
+}

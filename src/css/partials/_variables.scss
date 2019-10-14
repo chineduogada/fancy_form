@@ -1,0 +1,77 @@
+// BASE-SIZE
+// $base: 1.5rem;
+// $base-half: 0.75rem;
+// $base-double: 3rem;
+
+// WIDTHS
+$checkbox-width: 40px;
+// END OF WIDTHS
+
+// HEIGHTS
+$navBar-height: 60px;
+$hero-height: calc(100vh - #{$navBar-height});
+$checkbox-height: calc(#{$checkbox-width} / 2);
+// END OF HEIGHTS
+
+// COLORS
+$primary: #4979ff;
+$primary-light: lighten($primary, 15%);
+// $default: #d1d1d1;
+// $default-dark: darken($default, 15%);
+// $grey-dark: #444;
+// $grey-light: #aaa;
+// $white: #fff;
+// $primary: #f09d51;
+// $primary-light: lighten($primary, 15%);
+$primary-dark: darken($primary, 15%);
+// $default: #e0d6cd;
+// $default-dark: darken($default, 15%);
+// $grey-dark: #444;
+// $grey-light: #aaa;
+// $white: #fff;
+
+// BASE-SIZE
+$base: 1.5rem;
+$base-half: 0.75rem;
+$base-double: 3rem;
+
+// BASE-SIZE
+$base-scale: 1.05;
+$base-scale-half: 0.8;
+$base-scale-double: 1.3;
+
+// HEIGHT
+$header-nav-bar-height: 61px;
+
+// COLORS
+// BLUE
+// $primary: #1a48c5;
+// $primary: #0092c6;
+// $primary-light: lighten($primary, 5%);
+// $primary-dark: darken($primary, 15%);
+
+// GREEN
+// $success: #1a48c5;
+$success: #36bc9b;
+$success-light: lighten($success, 15%);
+$success-dark: darken($success, 15%);
+
+// RED
+$danger: #e26959;
+$danger-light: lighten($danger, 15%);
+$danger-dark: darken($danger, 15%);
+
+// WARNING
+$warning: #f7e061;
+$warning-light: lighten($warning, 15%);
+$warning-dark: darken($warning, 15%);
+
+// FREQUENTLY USED
+$default: #d1d1d1;
+$default-dark: darken($default, 25%);
+$default-light: lighten($default, 10%);
+// $grey-dark: #444;
+// $grey-light: #aaa;
+$grey: #8d95b1;
+$white: #f7f4f4;
+$black: #2a2e3e;
